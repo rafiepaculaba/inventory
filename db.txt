@@ -1,0 +1,63 @@
+vessels
+- vesselID
+- vesselCode
+- vesselName
+- status
+
+departments
+- deptID
+- deptName
+- deptDesc
+- status
+
+main_category
+- catID
+- catName
+- catDesc
+- status
+
+sub_cat1
+- sub1ID
+- catID
+- subCat1Name
+- subCat1Desc
+- status
+
+sub_cat2
+- sub2ID
+- sub1ID
+- catID
+- subCat2Name
+- subCat2Desc
+- status
+
+items
+- itemCode
+- catID
+- sub1ID
+- sub2ID
+- itemName
+- itemDesc
+- umsr
+- status
+
+suppliers
+- suppID
+- suppName
+- suppAddress
+- suppAccountNo
+- suppBank
+- suppBankAddr
+- suppBankBranch
+- status
+
+request_orders
+
+
+purchase_orders
+
+
+payment_advices
+
+
+budget
